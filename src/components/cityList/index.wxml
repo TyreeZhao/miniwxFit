@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<template name="cityList" class="container">
+  <view class="userinfo">
+    <block>
+      <text class="city">北京市</text>
+      <text>北京全城</text>
+      <text>朝阳区</text>      
+    </block>
+  </view>
+</template>

@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<template name="courses" class="container">
+  <view class="userinfo">
+    <block>
+      <text class="userinfo-nickname">课程页</text>
+    </block>
+  </view>
+</template>

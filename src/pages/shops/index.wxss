@@ -1,0 +1,36 @@
+/**shops.wxss**/
+.scroll-view-item {
+  display: flex;
+}
+
+.image {
+  margin: auto;
+  width: 100%;
+}
+
+.region{
+  line-height:100rpx;
+  text-align:center;
+  color: white;
+  flex:1;
+  font-weight:lighter;
+  background-color: #1A1A1A;
+  font-size:24rpx;
+}
+
+.divider_c {
+  height: 100%;
+  widows: 1px;
+  background-color: #1A1A1A;
+  width:1px;
+  margin:auto;
+  display: flex;
+}
+
+.divider {
+  height: 20px;
+  widows: 1px;
+  background-color: #767676;
+  width:1px;
+  margin:auto;
+}

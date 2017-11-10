@@ -1,0 +1,41 @@
+<!--src/pages/shops/index-->
+<template name="shops" class="container">
+  <scroll-view
+    scroll-y
+    style="position: absolute; top: 44px; bottom: 120px; width: 100%; height:calc(100% - 110px); padding: 10px 0;"
+    bindscrolltoupper="upper"
+    bindscrolltolower="lower"
+    bindscroll="scroll" 
+    enable-back-to-top="true"
+    scroll-into-view="{{toView}}"
+    scroll-top="{{scrollTop}}">
+    <view class="scroll-view-item" style="display: flex; margin: 10px;">
+      <image
+        class="image"
+        src="../../images/shop1.jpg"
+        style="margin: auto; width: 100%"
+        mode="widthFix"></image>
+    </view>
+    <view class="scroll-view-item" style="display: flex; margin: 10px;">
+      <image
+        class="image"
+        src="../../images/shop2.jpg"
+        style="margin: auto; width: 100%"
+        mode="widthFix"></image>
+    </view>
+    <view class="scroll-view-item" style="display: flex; margin: 10px;">
+      <image
+        class="image"
+        src="../../images/shop3.jpg"
+        style="margin: auto; width: 100%"
+        mode="widthFix"></image>
+    </view>
+    <view class="scroll-view-item" style="display: flex; margin: 10px;">
+      <image
+        class="image"
+        src="../../images/shop4.jpg"
+        style="margin: auto; width: 100%"
+        mode="widthFix"></image>
+    </view>
+  </scroll-view>
+</template>

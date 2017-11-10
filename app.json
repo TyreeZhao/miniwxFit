@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "src/pages/index/index",
+    "src/pages/courses/index",
+    "src/pages/userCard/index",
+    "src/pages/bookView/index",
+    "src/pages/shops/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "超级母猩猩",
+    "navigationBarTextStyle":"white"
+  }
+}

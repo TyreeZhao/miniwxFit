@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<template name="userCard" class="container">
+  <view class="userinfo">
+    <block>
+      <text class="userinfo-nickname">母猩猩会员卡</text>
+    </block>
+  </view>
+</template>

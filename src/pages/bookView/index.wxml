@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<template name="bookView" class="container">
+  <view class="userinfo">
+    <block>
+      <text class="userinfo-nickname">我的预约</text>
+    </block>
+  </view>
+</template>
